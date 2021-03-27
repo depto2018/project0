@@ -1,0 +1,42 @@
+
+body {
+  font-family: arial;
+}
+
+#advSearch {
+  width: 50%;
+  height: 50%;
+}
+
+#upper {
+  text-align: right;
+  margin-right: 5%;
+  margin-top: 2%;
+}
+
+label {
+  display: inline-block;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  float: left;
+}
+
+input[type='text']{
+  display: inline-block;
+  width: 70%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  float: right;
+}
+
+input[type='submit']{
+  display: inline-block;
+  width: 30%;
+  height: 30px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  float: right;
+  background-color: #33B2FF;
+  color: white;
+  border-width: thin;
+}
