@@ -14,7 +14,6 @@ body {
   margin: auto;
 }
 
-
 #upper {
   margin-top: 2%;
 }
@@ -64,11 +63,12 @@ input[type='text']{
   margin: auto;
 }
 
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 7%;
-  max-width: 100%;
-  height: auto;
+#center {
+  position: fixed;
+  margin-left:auto;
+  margin-right:auto;
+  top: 20%;
+  bottom: 55%;
+  width: auto;
+  height: 20vh;
 }
