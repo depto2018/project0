@@ -14,7 +14,6 @@ body {
   margin: auto;
 }
 
-
 #upper {
   margin-top: 2%;
 }
@@ -69,6 +68,6 @@ input[type='text']{
   margin-left: auto;
   margin-right: auto;
   margin-top: 7%;
-  max-width: 100%;
+  width: 25%;
   height: auto;
 }
