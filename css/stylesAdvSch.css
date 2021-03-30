@@ -1,6 +1,7 @@
 
 body {
   font-family: arial;
+  font-size: 1vw;
 }
 
 #advSearch {
@@ -10,33 +11,39 @@ body {
 
 #upper {
   text-align: right;
+  position: relative;
   margin-right: 5%;
   margin-top: 2%;
 }
 
+#inline {
+  display: flex;
+}
+
 label {
-  display: inline-block;
-  margin-top: 1%;
-  margin-bottom: 1%;
+  height: 4vh;
+  width: 30%;
   float: left;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
 }
 
 input[type='text']{
-  display: inline-block;
   width: 70%;
-  margin-top: 1%;
-  margin-bottom: 1%;
+  height: 4vh;
   float: right;
 }
 
 input[type='submit']{
   display: inline-block;
   width: 30%;
-  height: 30px;
+  height: 5vh;
   margin-top: 2%;
   margin-bottom: 2%;
   float: right;
   background-color: #33B2FF;
   color: white;
   border-width: thin;
+  font-weight: bold;
+  font-size: 1vw;
 }
